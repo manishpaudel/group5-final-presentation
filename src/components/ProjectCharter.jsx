@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
+import "./ProjectCharter.css"
 
 function ProjectCharter() {
   // Animation for the container
@@ -7,7 +8,7 @@ function ProjectCharter() {
 
   return (
     <animated.div style={fadeIn} className="charter-container">
-      <h1>Project Charter: IT Infrastructure Upgrade</h1>
+      <h1>Project Charter</h1>
       <div className="budget-section">
         <h2>Estimated Budget</h2>
         <p>$3,884,800</p>
@@ -21,9 +22,9 @@ function ProjectCharter() {
         <p>Kishore Buddi</p>
       </div>
       <div className="signatures-section">
-        <h2>Signatures</h2>
-        <p>Signed by Project Sponsor: Suraj Timsina</p>
-        <p>CEO of Contoso Consulting: Manish Paudel</p>
+        <h2>Signed by</h2>
+        <p><b>Project Sponsor:</b> Suraj Timsina</p>
+        <p><b>CEO of Contoso Consulting:</b> Manish Paudel</p>
       </div>
     </animated.div>
   );
