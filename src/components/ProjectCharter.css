@@ -1,0 +1,24 @@
+.charter-container {
+    text-align: left;
+    padding: 2rem;
+  }
+  
+  h1 {
+    color: #2C3E50;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    color: #34495E;
+    margin-bottom: .5rem;
+  }
+  
+  .budget-section, .schedule-section, .manager-section, .signatures-section {
+    margin-bottom: 2rem;
+    background-color: #ECF0F1;
+    padding: 1rem;
+    border-left: 5px solid #3498DB;
+  }
+  
+  /* You can add more specific styles as needed for your design */
+  

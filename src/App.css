@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 10vh; /* Header height is 10% of the viewport height */
+  width: 100%; /* Full width */
+  position: fixed; /* Fixed at the top */
+  top: 0; /* Align to the top of the viewport */
+  left: 0; /* Align to the left of the viewport */
+  z-index: 1; /* Lower z-index so that nav overlaps */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-nav {
+  background-color: #d4d4d4;
+  width: 15%; /* Navigation width is 20% of the viewport width */
+  position: fixed; /* Fixed position */
+  height: 90vh; /* Full viewport height */
+  z-index: 2; /* Higher z-index so that nav overlaps the header */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 10vh; 
+}
+
+
+
+.App-body {
+  display: flex;
+  flex: 1;
+}
+
+
+.App-nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  width: 100%; /* Sets the width to fill the parent */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+  border-radius: 20px;
+}
+
+.App-nav .active {
+  background-color: #3498db; /* Highlight color for the active link */
+  color: white;
+  font-weight: bold;
+}
+
+.App-content {
+  margin-left: 15%; /* Offset content to the right of the navigation */
+  margin-top: 10vh; /* Offset for the header's height */
+  width: 85%; /* Content width is the remaining space */
+  position: absolute; /* Positioned absolutely relative to the App div */
+  top: 0;
+  bottom: 0;
+  overflow-y: auto; /* Enable vertical scroll within the content area */
+}
+
+/* Additional styles for your links when they are active or hovered */
+.App-nav a:hover,
+.App-nav a:active {
+  background-color: #565e6a;
+}
+
+li{
+  padding-top: 10px;
+}
