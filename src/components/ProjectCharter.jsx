@@ -11,7 +11,7 @@ function ProjectCharter() {
       <h1>Project Charter</h1>
       <div className="budget-section">
         <h2>Estimated Budget</h2>
-        <p>$3,884,800</p>
+        <p><b>$3,884,800</b></p>
       </div>
       <div className="schedule-section">
         <h2>Schedule</h2>

@@ -1,0 +1,33 @@
+/* WBS Container, similar to overview-container and charter-container */
+.wbs-container {
+    text-align: left;
+    padding: 2rem;
+  }
+  
+  /* Header styles matching Overview and Project Charter */
+  .wbs-container h1 {
+    color: #2C3E50;
+    margin-bottom: 1rem;
+  }
+  
+  /* Heading styles remain the same as in Overview and Project Charter */
+  .wbs-container h2 {
+    color: #34495E;
+    margin-bottom: .5rem;
+  }
+  
+  /* Section for WBS, mirroring the Overview and Project Charter section styles */
+  .wbs-container .wbs-section {
+    margin-bottom: 2rem;
+    background-color: #ECF0F1;
+    padding: 1rem;
+    border-left: 5px solid #3498DB;
+  }
+  
+  /* Image styles */
+  .wbs-container .wbs-image {
+    max-width: 100%; /* Ensures the image is responsive and fits within its container */
+    height: auto; /* Maintains the aspect ratio */
+    margin-top: 1rem; /* Adds some space above the image */
+  }
+  
