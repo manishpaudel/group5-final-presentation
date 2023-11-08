@@ -4,5 +4,36 @@
     background-color: #fff; /* Or another color that matches your page style */
   }
   
-  /* You can add more specific styles as needed for your design */
+  .budget-details-container {
+    text-align: left;
+    padding: 2rem;
+  }
+  
+  .budget-details-container h1 {
+    color: #2C3E50;
+    margin-bottom: 1rem;
+  }
+  
+  .budget-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .budget-item {
+    background-color: #ECF0F1;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid #3498DB;
+  }
+  
+  .budget-item-name {
+    font-weight: bold;
+  }
+  
+  .budget-item-amount {
+    color: #3498DB;
+  }
   

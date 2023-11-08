@@ -1,0 +1,37 @@
+/* Bibliography.css */
+.bibliography-container {
+    text-align: left;
+    padding: 2rem;
+  }
+  
+  .bibliography-container h1 {
+    color: #2C3E50;
+    margin-bottom: 1rem;
+  }
+  
+  .reference-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .reference-item {
+    background-color: #ECF0F1;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-left: 5px solid #3498DB;
+  }
+  
+  .reference-text {
+    margin-bottom: 0.5rem;
+    color: #34495E;
+  }
+  
+  .reference-text a {
+    color: #3498DB;
+    text-decoration: none;
+  }
+  
+  .reference-text a:hover {
+    text-decoration: underline;
+  }
+  

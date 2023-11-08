@@ -1,0 +1,34 @@
+.communication-plan-container {
+    text-align: left;
+    padding: 2rem;
+  }
+  
+  .communication-plan-container h1 {
+    color: #2C3E50;
+    margin-bottom: 1rem;
+  }
+  
+  .communication-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .communication-table th, .communication-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .communication-table th {
+    background-color: #3498DB;
+    color: white;
+  }
+  
+  .communication-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .communication-table tr:hover {
+    background-color: #ddd;
+  }
+  

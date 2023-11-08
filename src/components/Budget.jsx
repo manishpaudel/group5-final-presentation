@@ -10,6 +10,9 @@ import {
   Legend,
 } from 'chart.js';
 
+import "./Budget.css"
+
+
 // Register the chart.js components we're using
 ChartJS.register(
   CategoryScale,
@@ -25,7 +28,7 @@ const BudgetBarChart = () => {
     labels: ['Requirement Gathering', 'Procurement', 'Operating System Upgrade', 'Testing', 'Training and Documentation', 'Wrap Up'],
     datasets: [
       {
-        label: 'Budget Allocation',
+        label: 'Budget Estimation',
         data: [3000, 3717300, 22500, 49300, 3900, 9000],
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
@@ -68,4 +71,30 @@ const BudgetBarChart = () => {
   );
 };
 
-export default BudgetBarChart;
+const BudgetDetails = () => {
+    const budgetItems = [
+      { name: 'Requirement Gathering', amount: 3000 },
+      { name: 'Procurement', amount: 3717300 },
+      { name: 'Operating System Upgrade', amount: 22500 },
+      { name: 'Testing', amount: 49300 },
+      { name: 'Training and Documentation', amount: 3900 },
+      { name: 'Wrap Up', amount: 9000 },
+    ];
+  
+    return (
+      <div className="budget-details-container">
+        <h1>Budget Estimation</h1>
+        <BudgetBarChart/>
+        <ul className="budget-list">
+          {budgetItems.map((item, index) => (
+            <li key={index} className="budget-item">
+              <span className="budget-item-name">{item.name}</span>
+              <span className="budget-item-amount">${item.amount.toLocaleString()}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  };
+  
+  export default BudgetDetails;
