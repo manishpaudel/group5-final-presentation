@@ -30,13 +30,13 @@ function Overview() {
         <p><ul>
           <li>Streamlined operations and increased efficiency in service delivery.</li>
           <li>A robust platform for the in-house software system catering to all organizational needs.</li>
-           <li> Positioning for ISO certification, enhancing global business credentials and compliance.</li>
+          <li>Positioning for ISO certification, enhancing global business credentials and compliance.</li>
         </ul>
         </p>
       </div>
       <div className="commencement-section">
         <h2>Project Commencement</h2>
-        <p>Slated for the upcoming financial quarter, within a 3-month strategic launch window.</p>
+        <p>Must be completed within upcoming financial quarter, within a 3-month strategic launch window.</p>
       </div>
     </animated.div>
   );
