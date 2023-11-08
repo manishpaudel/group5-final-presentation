@@ -1,0 +1,13 @@
+.timeline-container {
+    text-align: left;
+    padding: 2rem;
+  }
+  
+  /* Header styles matching Overview, Project Charter, and WBS */
+  .timeline-container h1 {
+    color: #2C3E50;
+    margin-bottom: 1rem;
+  }
+  
+  /* Chart styles can be added here if needed */
+  

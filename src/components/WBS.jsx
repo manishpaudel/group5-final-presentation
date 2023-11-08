@@ -10,8 +10,6 @@ function WBS() {
     <animated.div style={fadeIn} className="wbs-container">
       <h1>Work Breakdown Structure (WBS)</h1>
       <div className="wbs-section">
-        <h2>Project IT Infrastructure Upgrade</h2>
-        <p>The Work Breakdown Structure (WBS) outlines the key project deliverables and work to be performed.</p>
         <img src={process.env.PUBLIC_URL+'images/wbs.jpg'} alt="Work Breakdown Structure" className="wbs-image"/>
       </div>
     </animated.div>

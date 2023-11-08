@@ -28,6 +28,7 @@ function App() {
 						<NavLink to="/timeline">Timeline</NavLink>
 						<NavLink to="/budget">Budget</NavLink>
 						<NavLink to="/risks-analysis">Risks Analysis</NavLink>
+						<NavLink to="/communication-plan">Communication Plan</NavLink>
 					</nav>
 					<main className="App-content">
 						<Routes>
@@ -36,7 +37,7 @@ function App() {
 							<Route path="/wbs" element={<WBS />} />
 							<Route path="/timeline" element={<Timeline />} />
 							<Route path="/budget" element={<Budget />} />
-							<Route path="/risks-analysis" element={<RisksAnalysis />} />
+							<Route path="/communication-plan" element={<RisksAnalysis />} />
 							{/* Add more routes here as needed */}
 						</Routes>
 					</main>
